@@ -7,7 +7,7 @@ public class Transformer {
 
     /**
      * Constructor
-     * Initialize the Transformer with the name to replace "Chuck Norris" with
+     * Initialize the Transformer with the name to replace "Chuck Norris" with 
      * and the number of words per line to use when wrapping the text.
      * @param newName the name to replace "Chuck Norris" with
      * @param numWordsPerLine the number of words per line to use when wrapping the text
@@ -48,4 +48,4 @@ public class Transformer {
         // Use the StringBuilder class to build the result string.
         return "";
     }
-}
+}   

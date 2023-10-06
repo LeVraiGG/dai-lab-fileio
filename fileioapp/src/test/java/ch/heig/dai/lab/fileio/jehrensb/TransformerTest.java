@@ -10,7 +10,7 @@ public class TransformerTest {
     public final int numWordsPerLine = 3;
 
     private final Transformer transformer = new Transformer(newName, numWordsPerLine);
-    private String testString = "Chuck Norris s’est fait flasher à 280km/h sur l’autoroute. A pied.";
+        private String testString = "Chuck Norris s’est fait flasher à 280km/h sur l’autoroute. A pied.";
 
     @Test
     @Disabled
