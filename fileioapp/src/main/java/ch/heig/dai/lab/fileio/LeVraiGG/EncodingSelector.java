@@ -19,7 +19,7 @@ public class EncodingSelector {
      */
     public Charset getEncoding(File file) {
         // The method getEncoding returns the Charset to be used to read an input file. It does this by looking at the extension of the file name.
-        String[] hashedName = file.getName().split(".");
+        String[] hashedName = file.getName().split("\\.");
         switch (hashedName[hashedName.length - 1]) {
             case "utf8":
                 return StandardCharsets.UTF_8;
